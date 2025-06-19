@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2024-11-10_13-40-55.png" />
+    <None Remove="2024-11-10_16-05-57.png" />
+    <None Remove="Image1.png" />
+    <None Remove="Рисунок1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Todo.Entities\Todo.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="2024-11-10_13-40-55.png" />
+    <Resource Include="2024-11-10_16-05-57.png" />
+    <Resource Include="Image1.png" />
+    <Resource Include="Рисунок1.png" />
+  </ItemGroup>
+
+</Project>
